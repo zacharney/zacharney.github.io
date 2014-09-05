@@ -17,7 +17,7 @@
 		var bgColor = [red,green,blue,purple,whitesmoke,brown,orange,pink];
 		$('#clickme').click(function(){
 			if (bgColor != null || bgColor != undefined){
-				$('html').css({background: bgColor[0]});
+				$('html').style({background: bgColor[0]});
 				bgColor.pop();
 			} else {
 				alert('No More Colors');
