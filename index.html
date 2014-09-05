@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>js - Zac Harney - GitHub</title>>
+		<title>js - Zac Harney - GitHub</title>
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 	</head>
 	<body>
@@ -15,14 +15,14 @@
 		</main>
 		<script>
 		var bgColor = [red,green,blue,purple,whitesmoke,brown,orange,pink];
-		$('#clickme').function(){
+		$('#clickme').click(function(){
 			if (bgColor != null || bgColor != undefined){
 				$('html').css({background: bgColor[0]});
 				bgColor.pop();
 			} else {
 				alert('No More Colors');
 			};
-		};
+		});
 		</script>
 	
 	</body>
