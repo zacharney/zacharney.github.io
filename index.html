@@ -9,9 +9,21 @@
 			<h1>Zac Harney - GitHub</h1>
 		</header>
 		<main style="width:100%;height:100%;">
-		<div style="width: 200px; height:200px; background:aliceblue; border: 2px solid red 50px; margin: 0 auto;" font-size:50px; color:red;>
+		<div id="clickme" style="width: 200px; height:200px; background:aliceblue; border: 2px solid red 50px; margin: 0 auto;" font-size:50px; color:red;>
 			Click Here
 		</div>
 		</main>
+		<script>
+		var bgColor = [red,green,blue,purple,whitesmoke,brown,orange,pink];
+		$('#clickme').function(){
+			if (bgColor != null || bgColor != undefined){
+				$('html').css({background: bgColor[0]});
+				bgColor.pop();
+			} else {
+				alert('No More Colors');
+			};
+		};
+		</script>
+	
 	</body>
 </html>
