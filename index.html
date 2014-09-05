@@ -16,6 +16,7 @@
 		<script>
 		var bgColor = [red,green,blue,purple,whitesmoke,brown,orange,pink];
 		$(document).ready(function(){
+		$('head h1').text('hello');
 		$('#clickme').on('click touchend',function(){
 			if (bgColor != null || bgColor != undefined){
 				$('html').style({background: bgColor[0]});
