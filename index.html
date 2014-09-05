@@ -15,13 +15,15 @@
 		</main>
 		<script>
 		var bgColor = [red,green,blue,purple,whitesmoke,brown,orange,pink];
-		$('#clickme').click(function(){
+		$(document).ready(function(){
+		$('#clickme').on('click touchend',function(){
 			if (bgColor != null || bgColor != undefined){
 				$('html').style({background: bgColor[0]});
 				bgColor.pop();
 			} else {
 				alert('No More Colors');
 			};
+		});
 		});
 		</script>
 	
