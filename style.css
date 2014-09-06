@@ -4,17 +4,27 @@ body,html{
 }
 html {
 	background:#f9f6f4;
+	font-size:16px;
 }
+
 .header {
-	background:rgba(254,249,246,0.8);
+	background:rgb(254,249,246);
 	position:fixed;
 	left:0;
 	right:0;
 	height:150px;
-	box-shadow:0 5px 10px black;
-}
-.header:before {
+	-webkit-box-shadow:0 5px 10px black;
 	content:"Header Goes Here";
 	width: 100%;
-	font-size:80px;
+	font-size:2em;
 }
+.logo {
+	background: url(http://zacharney.com/logo.png) no-repeat center center;
+	background-size: contain;
+	width:100px;
+	height:auto;
+	margin:0 auto;
+	padding:25px 0;
+	text-indent:-9999px;
+}
+	
