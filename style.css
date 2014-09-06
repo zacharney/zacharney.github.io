@@ -21,10 +21,10 @@ html {
 .logo {
 	background: url(http://zacharney.com/logo.svg) no-repeat center center;
 	background-size: contain;
-	height:150px;
+	background-clip: content-box;
+	height:100px;
 	width:auto;
-	margin:0 auto;
-	padding:25px 0;
+	margin:25px auto;
 	text-indent:-9999px;
 	box-sizing:border-box;
 }
