@@ -9,10 +9,11 @@ html {
 main {
 	position: absolute;
 	top: 50px;
+	left:10%;
 	width:80%;
 	margin: 0 auto;
 }
-[input]{
+input{
 	margin:0 auto;
 	-webkit-box-shadow: 0 0 20px rgba(0,0,0,0.4);
 }
