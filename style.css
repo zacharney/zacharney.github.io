@@ -19,7 +19,7 @@ html {
 	font-size:2em;
 }
 .logo {
-	background: url(http://zacharney.com/logo.png) no-repeat center center;
+	background: url(http://zacharney.com/logo.svg) no-repeat center center;
 	background-size: contain;
 	height:150px;
 	width:auto;
