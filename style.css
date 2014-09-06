@@ -1,0 +1,20 @@
+body,html{
+	margin:0;
+	padding:0;
+}
+html {
+	background:#f9f6f4;
+}
+.header {
+	background:rgba(254,249,246,0.8);
+	position:fixed;
+	left:0;
+	right:0;
+	height:150px;
+	box-shadow:0 5px 10px black;
+}
+.header:before {
+	content:"Header Goes Here";
+	width: 100%;
+	font-size:80px;
+}
