@@ -17,14 +17,14 @@
 		<script>
 			$(document).ready(function(){
 				$('html').on('keyup',function(e){
-				var key = e.charCode || e.keyCode || e.which;
-				var color = $('#color').val();
-				var styles = $('html').css();
-				$('.debug').text(color);
-				if (key == 13){
-					$('html').css({background: color});
-					$('#color').val('');
-				};
+					var key = e.charCode || e.keyCode || e.which,
+						color = $('#color').val(),
+						styles = $('html').css('background');
+					$('.debug').text(color);
+					if (key == 13){
+						$('html').css({background: color});
+						$('#color').val('');
+					};
 				});
 			});
 		</script>
