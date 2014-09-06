@@ -6,10 +6,12 @@
 		<link rel="stylesheet" href="/style.css" />
 	</HEAD>
 	<BODY>
-		<noscript>Javascript is not enabled. Please enable it to properly view this site.</noscript>
+		<header class='header'><div class='logo'></div></header>
 		<script>
 			$(document).ready(function(){
-				$('body').prepend("<header class='header'><div class='logo'>Zac Harney Photography</div></header>");
+				$('html').on('keyup',function(e){
+				alert(e);
+				});
 			});
 		</script>
 	</BODY>
