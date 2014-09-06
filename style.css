@@ -15,7 +15,7 @@ main {
 	position:fixed;
 	left:0;
 	right:0;
-	height:120px;
+	height:35px;
 	-webkit-box-shadow:0 5px 10px rgba(0,0,0,.5);
 	content:"Header Goes Here";
 	width: 100%;
