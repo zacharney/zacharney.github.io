@@ -8,19 +8,19 @@ html {
 }
 
 .header {
-	background:rgb(254,249,246);
+	background:rgba(254,249,246,.8);
 	position:fixed;
 	left:0;
 	right:0;
 	height:150px;
-	-webkit-box-shadow:0 5px 10px black;
+	-webkit-box-shadow:0 5px 10px rgba(0,0,0,.5);
 	content:"Header Goes Here";
 	width: 100%;
 	font-size:2em;
 }
 .logo {
 	background: url(http://zacharney.com/logo.png) no-repeat center center;
-	background-size: contain;
+	background-size: 100%;
 	width:100px;
 	height:auto;
 	margin:0 auto;
