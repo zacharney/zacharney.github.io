@@ -12,7 +12,7 @@ html {
 	position:fixed;
 	left:0;
 	right:0;
-	height:150px;
+	height:120px;
 	-webkit-box-shadow:0 5px 10px rgba(0,0,0,.5);
 	content:"Header Goes Here";
 	width: 100%;
@@ -24,7 +24,7 @@ html {
 	background-clip: content-box;
 	height:100px;
 	width:auto;
-	margin:25px auto;
+	margin:10px auto;
 	text-indent:-9999px;
 	box-sizing:border-box;
 }
