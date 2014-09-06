@@ -18,9 +18,10 @@
 				$('html').on('keyup',function(e){
 				var key = e.charCode || e.keyCode || e.which;
 				var color = $('#color').val();
-				if (key == 13)
+				if (key == 13){
 					$('html').css({background: color});
 					$('#color').val('');
+				};
 				});
 			});
 		</script>
