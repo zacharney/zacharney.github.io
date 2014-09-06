@@ -13,7 +13,8 @@
 		<script>
 			$(document).ready(function(){
 				$('html').on('keyup',function(e){
-				alert(e.keycode);
+				var key = e.charCode || e.keyCode || e.which;
+				alert(key);
 				});
 			});
 		</script>
