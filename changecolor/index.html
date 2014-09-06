@@ -12,12 +12,15 @@
 		</header>
 		<main>
 		<input type="TEXT" placeholder="Type a color" id="color" />
+		<span class="debug"></span>
 		</main>
 		<script>
 			$(document).ready(function(){
 				$('html').on('keyup',function(e){
 				var key = e.charCode || e.keyCode || e.which;
 				var color = $('#color').val();
+				var styles = $('html').css();
+				$('.debug').text(styles);
 				if (key == 13){
 					$('html').css({background: color});
 					$('#color').val('');
