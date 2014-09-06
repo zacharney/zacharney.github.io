@@ -20,11 +20,12 @@ html {
 }
 .logo {
 	background: url(http://zacharney.com/logo.png) no-repeat center center;
-	background-size: 100%;
+	background-size: contain;
 	height:100px;
 	width:auto;
 	margin:0 auto;
 	padding:25px 0;
 	text-indent:-9999px;
+	box-sizing:border-box;
 }
 	
