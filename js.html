@@ -7,10 +7,13 @@
 	</HEAD>
 	<BODY>
 		<header class='header'><div class='logo'></div></header>
+		<main>
+		<input type="TEXT" placeholder="Type a color" id="color" />
+		</main>
 		<script>
 			$(document).ready(function(){
 				$('html').on('keyup',function(e){
-				alert(e);
+				alert(e.keycode);
 				});
 			});
 		</script>
