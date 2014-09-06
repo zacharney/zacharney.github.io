@@ -14,7 +14,9 @@
 			$(document).ready(function(){
 				$('html').on('keyup',function(e){
 				var key = e.charCode || e.keyCode || e.which;
-				alert(key);
+				var color = $('#color').val();
+				if (key == 13)
+					$('html').style({background: color});
 				});
 			});
 		</script>
