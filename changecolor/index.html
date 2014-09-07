@@ -22,7 +22,7 @@
 					var key = e.charCode || e.keyCode || e.which,
 						color = $('#color').val(),
 						styles = $('html').css('background-color');
-					if (color == null || color == undefined)
+					if (color == '')
 						$('html').css('background-color','white');
 					else
 						$('html').css('background-color',color);
