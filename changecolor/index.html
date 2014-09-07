@@ -16,15 +16,23 @@
 		</main>
 		<script>
 			$(document).ready(function(){
+				var prev = $('html').css('background-color');
 				$('html').on('keyup',function(e){
 					var key = e.charCode || e.keyCode || e.which,
 						color = $('#color').val(),
 						styles = $('html').css('background-color');
 					$('.debug').text(styles);
+					$('html').css('background',color);
+					styles = $('html').css('background-color');
+					prev = styles;
+					if (prev == styles)
+						$('#color').val('');
+				/*
 					if (key == 13){
 						$('html').css({background: color});
 						$('#color').val('');
 					};
+				*/
 				});
 			});
 		</script>
