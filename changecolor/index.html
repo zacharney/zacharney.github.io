@@ -20,7 +20,7 @@
 					var key = e.charCode || e.keyCode || e.which,
 						color = $('#color').val(),
 						styles = $('html').css('background');
-					$('.debug').text(color);
+					$('.debug').text(styles);
 					if (key == 13){
 						$('html').css({background: color});
 						$('#color').val('');
