@@ -48,6 +48,6 @@ input{
 .debug {
 	font-size:60px;
 	color:whitesmoke;
-	text-shadow:0 0 5px rgba(0,0,0,.6);
+	text-shadow:0 0 15px rgba(0,0,0,.6);
 }
 	
