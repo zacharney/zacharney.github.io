@@ -17,6 +17,8 @@ input{
 	margin:0 auto;
 	height:80px;
 	width:400px;
+	font-size:70px;
+	font-family:'Comic Sans','Helvetica Neue','Arial',san-serif;
 	border:none;
 	outline:none;
 	-webkit-box-shadow: 0 0 20px rgba(0,0,0,0.4);
