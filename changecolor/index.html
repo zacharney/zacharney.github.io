@@ -19,7 +19,7 @@
 				$('html').on('keyup',function(e){
 					var key = e.charCode || e.keyCode || e.which,
 						color = $('#color').val(),
-						styles = $('html').css('background');
+						styles = $('html').css('background-color');
 					$('.debug').text(styles);
 					if (key == 13){
 						$('html').css({background: color});
